@@ -9,5 +9,6 @@ public class APP extends Application {
         super.onCreate();
 
         new ANRWatchDog().start();
+	Logg.d("添加log日志");
     }
 }
